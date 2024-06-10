@@ -41,6 +41,10 @@ nav {
     color: #3e9932;
 }
 
+span {
+  color: #3e9932;
+}
+
 .nav-links {
   gap: 2rem;
   list-style: none;
@@ -291,7 +295,8 @@ section {
 }
 
 .about-pic {
-    border-radius: 2rem;
+    border-radius: 200px;
+    height: 380px;
 }
 
 .arrow {
@@ -308,7 +313,7 @@ section {
     background-color: rgba(233, 233, 229, 0.281);
     border-radius: 60px;
     padding-left: 50px;
-    padding-right: 50px;
+    padding-right: 35px;
     margin-top: 10px;
 }
 

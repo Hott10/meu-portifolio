@@ -17,6 +17,8 @@
 }
 
 @media screen and (max-width: 1200px) {
+
+
   #desktop-nav {
     display: none;
   }
@@ -42,7 +44,7 @@
     margin: 0 5%;
   }
   .section__pic-container {
-    width: 275px;
+    width: 215px;
     height: 275px;
     margin: 0 auto 2rem;
   }
@@ -57,6 +59,10 @@
 @media screen and (max-width: 600px) {
   #foto_perfil {
     height: 250px;
+  }
+
+  #profile .section__text {
+    padding-top: 50px;
   }
   
   #contact,
@@ -112,7 +118,12 @@
     text-align: justify;
   }
   .about-pic {
-    margin-top: 15px;
-    height: 350px;
+    margin-top: 40px;
+    margin-right: auto;
+    height: 300px;
   }
+}
+#projects .experience-details-container .about-containers .details-container {
+  width: 350px;
+ 
 }
